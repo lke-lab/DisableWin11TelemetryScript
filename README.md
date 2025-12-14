@@ -18,7 +18,9 @@ Navigate to your desktop and run the script using PowerShell. Be sure to run Pow
 Restart required:
 After running the script, a system restart is required for the changes to take effect.
 
---------------- GERMAN ----------------------
+
+
+
 
 # PowerShell-Skript zum Deaktivieren der Telemetrie und Fehlerberichterstattung
 
