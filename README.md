@@ -12,7 +12,13 @@ This PowerShell script disables telemetry and Windows error reporting by configu
    ```powershell
    Invoke-WebRequest -Uri ""https://github.com/lke-lab/DisableWin11TelemetryScript/blob/main/DisableTelemetryScript.ps1"" -OutFile "$env:USERPROFILE\Desktop\DisableTelemetry.ps1"
 
+Run the script:
+Navigate to your desktop and run the script using PowerShell. Be sure to run PowerShell as administrator.
 
+Restart required:
+After running the script, a system restart is required for the changes to take effect.
+
+--------------- GERMAN ----------------------
 
 # PowerShell-Skript zum Deaktivieren der Telemetrie und Fehlerberichterstattung
 
