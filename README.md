@@ -1,50 +1,4 @@
 # DisableWin11TelemetryScript
-PowerShell Script to Disable Telemetry and Windows Error Reporting via GPO
-
-# PowerShell Script to Disable Telemetry and Error Reporting
-
-This PowerShell script disables telemetry and Windows error reporting by configuring the appropriate group policies and registry entries.
-
-## Instructions
-
-1. **Download the Script**:
-   Download the script using the following command:
-   ```powershell
-   Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1" -UseBasicP)
-
-" -OutFile "$env:USERPROFILE\Desktop\DisableTelemetry.ps1"
-
-Run the script:
-Navigate to your desktop and run the script using PowerShell. Be sure to run PowerShell as administrator.
-
-Restart required:
-After running the script, a system restart is required for the changes to take effect.
-
-
-
-
-
-# PowerShell-Skript zum Deaktivieren der Telemetrie und Fehlerberichterstattung
-
-Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberichterstattung, indem es entsprechende Gruppenrichtlinien und Registrierungseinträge setzt.
-
-## Anleitung
-
-1. **Skript herunterladen**:
-   Lade das Skript mit folgendem Befehl herunter:
-   ```powershell
-   Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1" -UseBasicP)
-
-" -OutFile "$env:USERPROFILE\Desktop\DisableTelemetry.ps1"
-
-Skript ausführen:
-Navigiere zu deinem Desktop und führe das Skript mit PowerShell aus. Achte darauf, PowerShell als Administrator auszuführen.
-
-Neustart erforderlich:
-Nach dem Ausführen des Skripts ist ein Neustart des Systems erforderlich, damit die Änderungen wirksam werden.
-
-
-# DisableWin11TelemetryScript
 ## PowerShell Script to Disable Telemetry and Windows Error Reporting via GPO
 
 This PowerShell script disables telemetry and Windows error reporting by configuring the appropriate group policies and registry entries.
@@ -68,6 +22,9 @@ After running the script, a system restart is required for the changes to take e
 
 
 PowerShell-Skript zum Deaktivieren der Telemetrie und Fehlerberichterstattung
+Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberichterstattung, indem es entsprechende Gruppenrichtlinien und Registrierungseinträge setzt.
+
+PowerShell-Skript zum Deaktivieren der Telemetrie und Fehlerberichterstattung
 
 Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberichterstattung, indem es entsprechende Gruppenrichtlinien und Registrierungseinträge setzt.
 
@@ -78,10 +35,18 @@ Stelle sicher, dass du PowerShell mit Administratorrechten öffnest, bevor du da
 
 Klicke mit der rechten Maustaste auf das PowerShell-Symbol und wähle Als Administrator ausführen.
 
-Skript herunterladen:
-Lade das Skript mit folgendem Befehl herunter:
+# PowerShell-Skript zum Deaktivieren der Telemetrie und Fehlerberichterstattung
 
-Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1" -UseBasicP)
+Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberichterstattung, indem es entsprechende Gruppenrichtlinien und Registrierungseinträge setzt.
+
+## Anleitung
+
+1. **Skript herunterladen**:
+   Lade das Skript mit folgendem Befehl herunter:
+   ```powershell
+   Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1" -UseBasicP)
+
+" -OutFile "$env:USERPROFILE\Desktop\DisableTelemetry.ps1"
 
 
 Skript ausführen:
