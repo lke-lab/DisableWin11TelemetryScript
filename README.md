@@ -10,7 +10,7 @@ Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberich
 1. **Skript herunterladen**:
    Lade das Skript mit folgendem Befehl herunter:
    ```powershell
-   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/DisableWin11TelemetryScript/blob/main/DisableTelemetryScript.ps1" -OutFile "$env:USERPROFILE\Desktop\DisableTelemetry.ps1"
+   Invoke-WebRequest -Uri "https://github.com/lke-lab/DisableWin11TelemetryScript/blob/main/DisableTelemetryScript.ps1" -OutFile "$env:USERPROFILE\Desktop\DisableTelemetry.ps1"
 
 Skript ausführen:
 Navigiere zu deinem Desktop und führe das Skript mit PowerShell aus. Achte darauf, PowerShell als Administrator auszuführen.
