@@ -35,7 +35,7 @@ Set-ItemProperty -Path $errorReportingRegKey -Name $errorReportingValue -Value $
 
 # Output confirmation message
 # Ausgabe einer Bestätigungsmeldung
-Write-Host "Telemetrie und Windows Fehlerberichterstattung wurden erfolgreich deaktiviert." -ForegroundColor Green
+Write-Host "Telemetry and Windows error reporting have been successfully disabled. Telemetrie und Windows Fehlerberichterstattung wurden erfolgreich deaktiviert." -ForegroundColor Green
 
 # Optionally, force a Group Policy update
 # Erzwinge ein sofortiges Gruppenrichtlinien-Update
@@ -43,4 +43,4 @@ gpupdate /force
 
 # Note that a restart is required
 # Hinweis, dass ein Neustart erforderlich ist
-Write-Host "Ein Neustart des Systems ist erforderlich, damit alle Änderungen wirksam werden." -ForegroundColor Yellow
+Write-Host "A system restart is required for all changes to take effect! Ein Neustart des Systems ist erforderlich, damit alle Aenderungen wirksam werden!" -ForegroundColor Yellow
