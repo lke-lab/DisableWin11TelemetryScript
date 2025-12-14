@@ -10,7 +10,8 @@ This PowerShell script disables telemetry and Windows error reporting by configu
 1. **Download the Script**:
    Download the script using the following command:
    ```powershell
-   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1
+   Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1" -UseBasicP)
+
 " -OutFile "$env:USERPROFILE\Desktop\DisableTelemetry.ps1"
 
 Run the script:
@@ -32,7 +33,8 @@ Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberich
 1. **Skript herunterladen**:
    Lade das Skript mit folgendem Befehl herunter:
    ```powershell
-   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1
+   Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1" -UseBasicP)
+
 " -OutFile "$env:USERPROFILE\Desktop\DisableTelemetry.ps1"
 
 Skript ausführen:
