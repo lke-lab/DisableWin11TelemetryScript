@@ -14,43 +14,33 @@ This PowerShell script disables telemetry and Windows error reporting by configu
    ```powershell
    Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1" -UseBasicP)
 
-Run the Script:
-After downloading, the script will execute automatically. Make sure to run PowerShell as Administrator to ensure it has the required permissions to modify system settings.
+3. Run the Script:
+   After downloading, the script will execute automatically. Make sure to run PowerShell as Administrator to ensure it has the required permissions to modify system settings.
 
-Restart Required:
-After running the script, a system restart is required for the changes to take effect.
+4. Restart Required:
+   After running the script, a system restart is required for the changes to take effect.
 
 
-PowerShell-Skript zum Deaktivieren der Telemetrie und Fehlerberichterstattung
-Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberichterstattung, indem es entsprechende Gruppenrichtlinien und Registrierungseinträge setzt.
 
-PowerShell-Skript zum Deaktivieren der Telemetrie und Fehlerberichterstattung
 
-Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberichterstattung, indem es entsprechende Gruppenrichtlinien und Registrierungseinträge setzt.
+# German / DisableWin11TelemetryScript
+## PowerShell-Skript zum Deaktivieren der Telemetrie und der Windows-Fehlerberichterstattung über GPO
 
-Anleitung
+Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberichterstattung, indem es die entsprechenden Gruppenrichtlinien und Registrierungseinträge konfiguriert.
 
-PowerShell als Administrator öffnen:
-Stelle sicher, dass du PowerShell mit Administratorrechten öffnest, bevor du das Skript ausführst. So geht's:
+### Anleitung
 
-Klicke mit der rechten Maustaste auf das PowerShell-Symbol und wähle Als Administrator ausführen.
+1. **PowerShell als Administrator öffnen**:  
+   Stelle sicher, dass du PowerShell mit **Administratorrechten** öffnest, bevor du das Skript ausführst. Gehe folgendermaßen vor:
+   - Klicke mit der rechten Maustaste auf das **PowerShell**-Symbol und wähle **Als Administrator ausführen**.
 
-# PowerShell-Skript zum Deaktivieren der Telemetrie und Fehlerberichterstattung
-
-Dieses PowerShell-Skript deaktiviert die Telemetrie und die Windows-Fehlerberichterstattung, indem es entsprechende Gruppenrichtlinien und Registrierungseinträge setzt.
-
-## Anleitung
-
-1. **Skript herunterladen**:
+2. **Skript herunterladen**:  
    Lade das Skript mit folgendem Befehl herunter:
    ```powershell
    Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lke-lab/DisableWin11TelemetryScript/main/DisableTelemetryScript.ps1" -UseBasicP)
 
-" -OutFile "$env:USERPROFILE\Desktop\DisableTelemetry.ps1"
+3. Skript ausführen:
+   Nachdem das Skript heruntergeladen wurde, wird es automatisch ausgeführt. Achte darauf, PowerShell als Administrator auszuführen, damit das Skript die erforderlichen Berechtigungen zum Ändern der Systemeinstellungen hat.
 
-
-Skript ausführen:
-Nachdem das Skript heruntergeladen wurde, wird es automatisch ausgeführt. Achte darauf, PowerShell als Administrator auszuführen, um die erforderlichen Berechtigungen zu haben.
-
-Neustart erforderlich:
-Nach dem Ausführen des Skripts ist ein Neustart des Systems erforderlich, damit die Änderungen wirksam werden.
+4. Neustart erforderlich:
+   Nach dem Ausführen des Skripts ist ein Neustart des Systems erforderlich, damit die Änderungen wirksam werden.
